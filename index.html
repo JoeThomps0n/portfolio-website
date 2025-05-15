@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Consolas:wght@400;600&family=Segoe+UI:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pixel-bg"></div>
+    <div class="background-animated"></div>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">portfolio.py</div>
+            <div class="nav-controls">
+                <button id="theme-toggle"><i class="fas fa-code"></i></button>
+                <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="nav-links">
+                <a href="#home">main()</a>
+                <a href="#about">about()</a>
+                <a href="#projects">projects()</a>
+                <a href="#skills">skills()</a>
+                <a href="#contact">contact()</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero animate-section">
+        <div class="hero-content animate-child">
+            <h1>Hi, I'm <span class="highlight">Joe Thompson</span></h1>
+            <p class="subtitle">Python Developer & Software Engineer</p>
+            <div class="cta-buttons animate-child">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about animate-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text animate-child">
+                <p>I'm a Python developer specialising in building robust, scalable applications and APIs, with a focus on IoT monitoring platforms, API gateways, and enterprise-level solutions using Python, Django, Flask, and modern cloud technologies. I'm dedicated to creating efficient, maintainable code and delivering high-performance, reliable applications. My expertise spans full-stack development, cloud architecture, and system integration, enabling me to build seamless solutions that meet both technical and business needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects animate-section">
+        <h2>Featured Projects</h2>
+        <div class="project-grid animate-child">
+            <div class="project-card animate-child">
+                <div class="project-image">
+                    <img src="images/p1.png" alt="Smart IoT Platform">
+                </div>
+                <div class="project-info">
+                    <h3>Smart IoT Platform</h3>
+                    <p>Advanced IoT monitoring platform for environmental sensors with real-time data processing, comprehensive reporting, and intelligent alerting systems.</p>
+                    <div class="project-tags">
+                        <span>Flask</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card animate-child">
+                <div class="project-image">
+                    <img src="images/p4.png" alt="API Gateway System">
+                </div>
+                <div class="project-info">
+                    <h3>API Gateway System</h3>
+                    <p>Independent API server acting as a central integration hub, connecting multiple external client systems and internal processes to the main job management system through standardized APIs and event-driven architecture.</p>
+                    <div class="project-tags">
+                        <span>Flask</span>
+                        <span>Python</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card animate-child">
+                <div class="project-image">
+                    <img src="images/p2.png" alt="SLA Monitoring Platform">
+                </div>
+                <div class="project-info">
+                    <h3>SLA Monitoring Platform</h3>
+                    <p>Comprehensive SLA monitoring solution for IoT infrastructure with custom alerting mechanisms and real-time performance tracking.</p>
+                    <div class="project-tags">
+                        <span>Django REST</span>
+                        <span>Python</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card animate-child">
+                <div class="project-image">
+                    <img src="images/p3.png" alt="Upcoming Project">
+                </div>
+                <div class="project-info">
+                    <h3>Upcoming Project</h3>
+                    <p>Full-stack application currently in development, featuring modern web technologies and cloud infrastructure.</p>
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>React</span>
+                        <span>Docker</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills animate-section">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid animate-child">
+            <div class="skill-category animate-child">
+                <h3>Languages & Frameworks</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Django/Flask</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category animate-child">
+                <h3>Tools & Technologies</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL/NoSQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-aws"></i>
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact animate-section">
+        <h2>Get In Touch</h2>
+        <div class="contact-content animate-child">
+            <div class="contact-info animate-child">
+                <h3>Contact Information</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <span>joethompsontech11@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <span>London, UK</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <span>07908588129</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/JoeThomps0n" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/joe-thompson-3a235a236/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form id="contact-form" class="animate-child">
+                <h3>Send me a message</h3>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn primary">
+                    <span class="btn-text">Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/JoeThomps0n" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/joe-thompson-3a235a236/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="code-comment"># Created by Joe Thompson 2025</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html> 
